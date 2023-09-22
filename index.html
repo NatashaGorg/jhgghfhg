@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h1>Natasha's restaurant</h1>
+        <img src="https://logowik.com/content/uploads/images/restaurant9491.logowik.com.webp" alt="logo" width="80" />
+        <p>
+          At our restaurant, <i>we invite you</i> to experience a delightful
+          culinary journey <br />
+          that combines the freshest ingredients with a passion for exquisite
+          flavors. <br />
+          Nestled in the heart of the city, our restaurant offers a warm and
+          inviting ambiance <br />
+          for food enthusiasts and families alike.
+        </p>
+      </div>
+    </header>
+    <main>
+        <section>
+            <figure> <figcaption>The interior of our restaurant</figcaption>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_Näsinneula.jpg/640px-Restaurant_Näsinneula.jpg" alt="Interior of the restaurant" width="500">
+        </figure>
+        </section>
+    <section>
+      <h2>What we offer:</h2>
+      <h3>Farm-to-Table Freshness</h3>
+      <p>
+        We believe in the farm-to-table philosophy, ensuring that every dish is
+        made from scratch <br />
+        with love and care. Our commitment to sustainability and supporting
+        local farmers <br />
+        means you can savor each bite knowing it's not only delicious <br />
+        but also environmentally responsible.
+      </p>
+    </section>
+      <section>           
+            
+        <h2>The Menu:</h2>
+
+        <dl>
+          <dt><b>Rustic Bruschetta</b></dt>
+          <dd>
+            Slices of toasted Italian bread topped with ripe tomatoes, fresh
+            basil, garlic, and drizzled with balsamic glaze.
+          </dd>
+
+          <dt><b>Spinach and Artichoke Dip</b></dt>
+          <dd>
+            Creamy blend of spinach, artichokes, and cheeses served with warm
+            tortilla chips.
+          </dd>
+
+          <dt><b>Crispy Calamari</b></dt>
+          <dd>
+            Tender calamari rings lightly fried to perfection, served with zesty
+            marinara sauce.
+          </dd>
+        </dl>
+      </section>
+      <section>
+        <h2>Beverages</h2>
+        <dl>
+            <dt><b>Signature Cocktails </b></dt>
+            <dd>
+                An assortment of handcrafted cocktails featuring seasonal ingredients.
+            </dd>
+  
+            <dt><b>Wine and Beer</b></dt>
+            <dd>
+                A curated selection of wines and craft beers to complement your meal.
+            </dd>
+  
+            <dt><b>Soft Drinks </b></dt>
+            <dd>
+                A variety of refreshing soft drinks and iced teas.
+            </dd>
+      </section>
+      <aside>
+        <h2>Private Events</h2>
+        <p><em><b>Looking to host a special event?</b></em> <br>
+         Our restaurant offers private dining options that can accommodate gatherings of all sizes. <br>
+         From intimate gatherings to large celebrations, we can tailor our menu <br>
+        and services to meet your event's unique requirements.</p>
+      </aside>
+    </main>
+    <footer>
+        
+        <div><h2>Reserve Table</h2>
+        <p>Please fill the form below accurately to enable us serve you better!.. Welcome!</p>
+    </div>
+    <form action="http://192.168.0.189:5500" enctype="application/x-www-form-urlencoded">
+        <h2>Your reservation</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="party-size">Party Size:</label>
+        <input type="number" id="party-size" name="party-size" min="1" required><br><br>
+
+        <label for="special-requests">Special Requests:</label><br>
+        <textarea id="special-requests" name="special-requests" rows="4" cols="50" placeholder="Anything you want us to know...."></textarea><br><br>
+
+        <input type="submit" value="Submit Reservation">
+    </form>
+    <h2>Natasha's Restaurant</h2>
+        <div>
+            <h3>Contact</h3>
+            <address>Ilica 242 10000 Zagreb</address>
+            <a href="mailto:info@restaurant.com">info@restaurant.com</a><br>
+            <a tel="+385 1 789456123">+385 1 789456123</a>
+            </address>
+        <div>
+            <h3>Follow us</h3>
+            <a href="https://facebook.com" target="_blank"><img src="https://png.pngtree.com/png-clipart/20180515/ourmid/pngtree-facebook-logo-facebook-icon-png-image_3566127.png"
+                    alt="facebook" width="64" height="64"></a>
+            <a href="https://twitter.com" target="_blank"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                    alt="twitter" width="64" height="64"></a>
+        </div>
+    </footer>
+  </body>
+</html>
